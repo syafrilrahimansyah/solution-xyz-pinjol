@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2023-07-16T02:49:33.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pTW9S-TxKhw0bPmsWfCV" version="21.6.2" type="google">
+  <diagram name="Page-1" id="vzE02zS7tAeDKqW6H6kv">
+    <mxGraphModel dx="794" dy="1513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="P8eivLFIVlnx_AiBu8_a-23" target="P8eivLFIVlnx_AiBu8_a-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1s1e4_UU9Re-ys42k_r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P8eivLFIVlnx_AiBu8_a-23" target="T1s1e4_UU9Re-ys42k_r-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+          <mxGeometry x="170" y="100" width="350" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="P8eivLFIVlnx_AiBu8_a-2" target="P8eivLFIVlnx_AiBu8_a-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-2" value="Backend Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-3" value="Auth Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="P8eivLFIVlnx_AiBu8_a-4" target="P8eivLFIVlnx_AiBu8_a-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-4" value="API GW" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="200" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-5" value="Pinjol DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="190" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-6" value="Pinjol Cache" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;size=0.25" parent="1" vertex="1">
+          <mxGeometry x="270" y="367.5" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="P8eivLFIVlnx_AiBu8_a-7" target="P8eivLFIVlnx_AiBu8_a-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-7" value="FrontEnd Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-9" value="SMTP" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+          <mxGeometry x="560" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-10" value="Filenet" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+          <mxGeometry x="560" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-11" value="Firebase Cloud Messaging" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+          <mxGeometry x="10" y="327.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="P8eivLFIVlnx_AiBu8_a-16" target="P8eivLFIVlnx_AiBu8_a-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="490" />
+              <mxPoint x="540" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="P8eivLFIVlnx_AiBu8_a-16" target="P8eivLFIVlnx_AiBu8_a-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="490" />
+              <mxPoint x="540" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-16" value="Middleware" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="P8eivLFIVlnx_AiBu8_a-18" target="P8eivLFIVlnx_AiBu8_a-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-18" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
+          <mxGeometry x="360" y="352.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-24" value="XYZ Pinjol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="302.5" y="100" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="P8eivLFIVlnx_AiBu8_a-26" target="P8eivLFIVlnx_AiBu8_a-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-26" value="User" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" parent="1" vertex="1">
+          <mxGeometry x="245" y="-25.25" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P8eivLFIVlnx_AiBu8_a-27" target="P8eivLFIVlnx_AiBu8_a-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="7" />
+              <mxPoint x="340" y="90" />
+              <mxPoint x="260" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P8eivLFIVlnx_AiBu8_a-27" value="Admin" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.monitor;" parent="1" vertex="1">
+          <mxGeometry x="382.5" y="-20" width="75" height="54.75" as="geometry" />
+        </mxCell>
+        <mxCell id="T1s1e4_UU9Re-ys42k_r-1" value="Payment Gateway&lt;br&gt;(midtrans)" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="10" y="242.5" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
